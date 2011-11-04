@@ -54,6 +54,7 @@ text font that may be used in the document.
 #- source
 %doc %{_texmfdistdir}/source/latex/pxgreeks/pxgreeks.dtx
 %doc %{_texmfdistdir}/source/latex/pxgreeks/pxgreeks.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -64,3 +65,5 @@ text font that may be used in the document.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
