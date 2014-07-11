@@ -6,7 +6,7 @@
 # catalog-version 1.0
 Name:		texlive-pxgreeks
 Version:	1.0
-Release:	7
+Release:	8
 Summary:	Shape selection for PX fonts Greek letters
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/pxgreeks
