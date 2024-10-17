@@ -3,7 +3,7 @@ Version:	21838
 Release:	2
 Summary:	Shape selection for PX fonts Greek letters
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/pxgreeks
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/pxgreeks
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pxgreeks.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pxgreeks.doc.r%{version}.tar.xz
